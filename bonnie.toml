@@ -2,3 +2,6 @@ version="0.3.2"
 
 [scripts]
 serve = "trunk serve --open"
+dev = "yarn dev"
+watch = "tailwindcss -i style/input.css -o style/output.css --minify"
+net = "chmod 744 ./bin/install_trunk.sh && TRUNK_VERSION=0.17.5 ./bin/install_trunk.sh"
