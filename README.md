@@ -32,3 +32,10 @@ Web Based Tool for Nasa Hunch 2023
 
 # Template at first 
 ## https://github.com/talves/leptos-csr-tailwind/blob/main/site/src/main.rs 
+
+
+# Command Line Interface - Argument Parser
+
+# Tailwind css
+## npm install -D tailwindcss
+## npx tailwindcss init

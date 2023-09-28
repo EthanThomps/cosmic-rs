@@ -1,7 +1,7 @@
 use leptos::*;
 use leptos_meta::*;
 
-#[componet]
+#[component]
 pub fn About(cx: Scope) -> impl IntoView {
     view! {cx,
         

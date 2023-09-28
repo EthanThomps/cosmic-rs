@@ -1,5 +1,4 @@
 use clap::{Parser, Subcommand, Args};
-// Command Line Interface - Argument Parser
 
 #[derive(Parser)]
 #[command(author, version)]
@@ -20,6 +19,10 @@ enum Commands {
 
     /// doubles the number you enter
     Double(Double),
+
+    // todo!() Print out user's schedule?
+
+    // todo!() Help user convert time?
 }
 
 #[derive(Args)]

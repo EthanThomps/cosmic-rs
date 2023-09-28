@@ -13,5 +13,5 @@ fn main() {
 
     log!("Basic CSR mode template");
 
-    leptos::mount_to_body(|cx| view { cx, <App/> })
+    leptos::mount_to_body(|cx| view! { cx, <App/> })
 }
