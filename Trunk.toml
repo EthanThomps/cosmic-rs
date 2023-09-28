@@ -1,3 +1,9 @@
 [build]
 target = "site/index.html"
 dist = "site/dist"
+
+
+[[hooks]]
+stage = "pre_build"
+command_arguments = ["-c", "npx tailwindcss -i style/input.css -o style/output.css"]
+command = "yarn"
