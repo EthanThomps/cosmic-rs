@@ -1,5 +1,6 @@
 mod app;
 mod pages;
+mod routing;
 // mod theme;
 use leptos::*;
 use crate::app::App;

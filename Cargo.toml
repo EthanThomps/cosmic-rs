@@ -11,3 +11,4 @@ version = "0.1.0"
 components = { path = "crates/components", default-features = false }
 site = { path = "./site", default-features = false }
 cosmicli = { path = "crates/cosmicli", default-features = false }
+

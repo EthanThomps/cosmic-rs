@@ -10,8 +10,19 @@ components.workspace = true
 console_error_panic_hook = { version = "0.1" }
 console_log = { version = "1" }
 leptos = { version = "0.4.10", features = ["csr", "nightly"] }
+leptos_icons = { version = "0.0.15", default_features = false, features = [
+  "AiMenuOutlined",
+  "AiCloseOutlined",
+  "BsRocketTakeoff"
+]}
 leptos_meta = { version = "0.4.10", features = ["csr", "nightly"] }
 leptos_router = { version = "0.4.10", features = ["csr", "nightly"] }
 log = { version = "0.4.20" }
 wasm-bindgen = { version = "0.2.87" }
 web-sys = { version = "0.3.64" }
+
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+debug = 0

@@ -4,8 +4,10 @@ use leptos::*;
 pub fn About(cx: Scope) -> impl IntoView {
     view! {cx,
         <div>
-            <h1>"About Page"</h1>
-            <p class="1xl bg-white">"Does this work?"</p>
+            <div class="p-5 text-4xl">    
+                // A gradient from purple to orange?                    
+                <figcaption>"A Cosmic Web Tool for Nasa Hunch"</figcaption>
+            </div>
         </div>
     }
 }
